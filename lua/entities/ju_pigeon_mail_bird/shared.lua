@@ -1,6 +1,6 @@
 
 ENT.Type = 'anim'
-ENT.Author = 'Julik#8946'
+ENT.Author = 'jujaken'
 
 ENT.Category = ju.pigeon_mail.cfg.q_menu_category
 ENT.Spawnable = false
