@@ -22,5 +22,6 @@ end
 function SWEP:SecondaryAttack()
     if !IsFirstTimePredicted() then return end
 
+    ju.pigeon_mail.OpenLetterMenu(self:GetOwner())
     print 'SecondaryAttack'
 end
