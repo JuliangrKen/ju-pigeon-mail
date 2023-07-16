@@ -46,6 +46,8 @@ end
 
 addFile 'resourses.lua'
 addFile 'cfg.lua'
+addFile 'fonts.lua'
+
 addDir 'core'
 addDir 'derma'
 
