@@ -16,7 +16,11 @@ else
 
     net.Receive(netName, function()
         
-        local letter = vgui.Create 'juPigeonMailLetter'
+        if ju.pigeon_mail.letter then
+            ju.pigeon_mail.letter:Remove()
+        end
+        
+        ju.pigeon_mail.letter = vgui.Create 'juPigeonMailLetter'
 
     end)
 
