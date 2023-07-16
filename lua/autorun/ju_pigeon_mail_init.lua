@@ -44,5 +44,7 @@ local addDir = function(name)
     end
 end
 
+addFile 'resourses'
+
 -- Hello msg:
 MsgC(Color(134, 156, 223), "\n~~~\tJuliandrKen (jujaken) Pigeon Mail was loaded. Don't touch my crumb!\t~~~\n")
