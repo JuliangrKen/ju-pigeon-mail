@@ -47,6 +47,7 @@ end
 addFile 'resourses.lua'
 addFile 'cfg.lua'
 addDir 'core'
+addDir 'derma'
 
 -- Hello msg:
 MsgC(Color(134, 156, 223), "\n~~~\tJuliandrKen (jujaken) Pigeon Mail was loaded. Don't touch my crumb!\t~~~\n")
