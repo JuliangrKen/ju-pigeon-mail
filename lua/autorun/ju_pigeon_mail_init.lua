@@ -19,7 +19,7 @@ end
 
 local addFile = function(name, dir)
     local prefix = string.Left(name, 3)
-    local path = dir..name
+    local path = (dir or rDir) .. name
 
     if prefix == 'sv_' then
         addSv(path)
@@ -44,7 +44,9 @@ local addDir = function(name)
     end
 end
 
-addFile 'resourses'
+addFile 'resourses.lua'
+addFile 'cfg.lua'
+addDir 'core'
 
 -- Hello msg:
 MsgC(Color(134, 156, 223), "\n~~~\tJuliandrKen (jujaken) Pigeon Mail was loaded. Don't touch my crumb!\t~~~\n")
