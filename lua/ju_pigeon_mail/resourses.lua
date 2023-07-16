@@ -1,5 +1,9 @@
 local resources = ju.pigeon_mail.resources
 
+resources.fonts = {
+    'resource/fonts/sweet_mavka_script.ttf',
+}
+
 resources.weaponIcons = {
     'materials/entities/ju_pigeon_mail_tame_pigeon.png',
 }
