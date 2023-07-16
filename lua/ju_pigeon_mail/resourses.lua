@@ -4,6 +4,11 @@ resources.fonts = {
     'resource/fonts/sweet_mavka_script.ttf',
 }
 
+resources.images = {
+    'materials/ju_pigeon_mail/letter.vmt',
+    'materials/ju_pigeon_mail/letter.vtf',
+}
+
 resources.weaponIcons = {
     'materials/entities/ju_pigeon_mail_tame_pigeon.png',
 }
