@@ -13,12 +13,6 @@ SWEP.DrawAmmo = false
 SWEP.DrawCrosshair = false
 
 
-function SWEP:Initialize()
-
-    
-
-end
-
 function SWEP:PrimaryAttack()
     if !IsFirstTimePredicted() then return end
 
@@ -29,12 +23,4 @@ function SWEP:SecondaryAttack()
     if !IsFirstTimePredicted() then return end
 
     print 'SecondaryAttack'
-end
-
-function SWEP:CanPrimaryAttack()
-    
-end
-
-function SWEP:CanSecondaryAttack()
-    
 end
