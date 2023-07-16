@@ -18,6 +18,8 @@ else
         
         if ju.pigeon_mail.letter then
             ju.pigeon_mail.letter:Remove()
+            ju.pigeon_mail.letter = nil
+            return
         end
         
         ju.pigeon_mail.letter = vgui.Create 'juPigeonMailLetter'
